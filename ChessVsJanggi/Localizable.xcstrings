@@ -861,16 +861,6 @@
         }
       }
     },
-    "체스는 정규 편성에 폰이 9개입니다. 장기는 대군입니다 — 졸 9개, 차 5대(포 줄에 3대 추가).": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chess fields its full army with nine pawns. Janggi fields a horde — nine soldiers and five chariots (three extra on the cannon row)."
-          }
-        }
-      }
-    },
     "체스로 두기": {
       "localizations": {
         "en": {
@@ -987,6 +977,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "King"
+          }
+        }
+      }
+    },
+    "판이 넓어 체스는 비숍과 폰이 하나씩 더 많습니다(비숍 3, 폰 9). 장기는 대군입니다 — 졸 9개, 차 5대(포 줄에 3대 추가).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On the wider board Chess gets one extra bishop and pawn (three bishops, nine pawns). Janggi fields a horde — nine soldiers and five chariots (three extra on the cannon row)."
           }
         }
       }

@@ -13,12 +13,14 @@ final class RulesTests: XCTestCase {
 
     func testInitialSetup() {
         let board = Board.initial()
-        XCTAssertEqual(board.pieces(of: .chess).count, 17) // 뒷줄 8 + 폰 9
+        XCTAssertEqual(board.pieces(of: .chess).count, 18) // 뒷줄 9 + 폰 9
         XCTAssertEqual(board.pieces(of: .janggi).count, 23) // 표준 16 + 졸 4 + 차 3
         XCTAssertEqual(board.royalSquare(of: .chess), sq(4, 0))
         XCTAssertEqual(board.royalSquare(of: .janggi), sq(4, 8))
-        XCTAssertNil(board[sq(7, 0)])
+        XCTAssertEqual(board[sq(6, 0)]?.kind, .bishop)
+        XCTAssertEqual(board[sq(7, 0)]?.kind, .knight)
         XCTAssertEqual(board[sq(8, 0)]?.kind, .rook)
+        XCTAssertEqual(board.pieces(of: .chess).filter { $0.1.kind == .bishop }.count, 3)
         XCTAssertEqual(board.pieces(of: .janggi).filter { $0.1.kind == .chariot }.count, 5)
         XCTAssertEqual(board.pieces(of: .janggi).filter { $0.1.kind == .soldier }.count, 9)
         XCTAssertFalse(Rules.isInCheck(.chess, on: board))
@@ -27,8 +29,8 @@ final class RulesTests: XCTestCase {
 
     func testInitialMoveCounts() {
         let board = Board.initial()
-        // 폰 9개 × 2 + 나이트 둘 × 2 + 룩 i: 1(빈 h1 점)
-        XCTAssertEqual(Rules.legalMoves(for: .chess, on: board).count, 18 + 4 + 1)
+        // 폰 9개 × 2 + 나이트 둘 × 2
+        XCTAssertEqual(Rules.legalMoves(for: .chess, on: board).count, 18 + 4)
         XCTAssertFalse(Rules.legalMoves(for: .janggi, on: board).isEmpty)
         XCTAssertNil(Game().result)
         XCTAssertEqual(Game().sideToMove, .chess)
