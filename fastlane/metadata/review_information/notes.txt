@@ -1,0 +1,8 @@
+Chess vs Janggi is a board game where a chess army plays against a janggi (Korean chess) army on a janggi board. Each side moves by its own game's rules, and checkmate wins.
+
+How to review:
+- "vs Computer" plays against the built-in AI, fully offline. Choose "Play as Chess" or "Play as Janggi" and a difficulty on the home screen.
+- "Online" needs two devices: create a room on one, then join with the 6-character code on the other. The relay server is a free instance and may take up to about a minute to wake up on the first connection.
+- "Rules on one page" at the bottom of the home screen explains every piece.
+
+The app has no accounts, ads, analytics or in-app purchases, and collects no personal data. Online play only relays moves between the two players; nothing is stored.

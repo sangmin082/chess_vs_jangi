@@ -1,0 +1,25 @@
+What happens when chess and Korean chess fight on the same board?
+Chess vs Janggi pits a chess army against a janggi (Korean chess) army on one janggi board.
+
+■ Two armies, two sets of rules
+Chess pieces move by chess rules. Janggi pieces move by janggi rules. Checkmate the enemy king or general to win.
+- Chess: a queen and three bishops, a king that roams the whole board, pawns that promote
+- Janggi: a horde of nine soldiers and five chariots, cannons that jump over any piece, a general guarded inside the palace
+
+■ Pick your side
+- vs Computer: play as Chess or Janggi against Easy, Normal or Hard
+- Online: create a room and send the 6-character code to a friend. The host picks the side
+- Undo
+
+■ New to one of the games? No problem
+- One-page rules with how every piece of both armies moves
+- Legal moves shown right on the board
+- A clear warning whenever you are in check
+
+■ Rules of this game
+- Pieces sit on the points of a janggi board, and Chess moves first
+- Castling and the pawn's double step are in. There is no en passant
+- There is no facing-generals rule and no passing
+- Draw by stalemate, threefold repetition, or fifty moves without a capture or pawn move
+
+No ads · No sign-in · No data collected

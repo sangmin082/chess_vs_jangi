@@ -1,0 +1,47 @@
+name: App Store listing
+
+# App Store 등록 정보(설명·키워드·URL·스크린샷)와 가격을 올린다. 심사 제출은 하지 않는다.
+# 문구는 fastlane/metadata, 스크린샷은 fastlane/screenshots 에 있다.
+on:
+  workflow_dispatch:
+    inputs:
+      price_krw:
+        description: "가격(원). 비우면 가격은 건드리지 않는다"
+        required: false
+        default: ""
+
+concurrency:
+  group: store
+  cancel-in-progress: false
+
+jobs:
+  listing:
+    runs-on: macos-26
+    timeout-minutes: 30
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Upload metadata and screenshots
+        run: bundle exec fastlane metadata
+
+      - name: Set price
+        if: ${{ always() && inputs.price_krw != '' }}
+        env:
+          PRICE_KRW: ${{ inputs.price_krw }}
+        run: |
+          key_path="$RUNNER_TEMP/AuthKey_${ASC_KEY_ID}.p8"
+          printf '%s\n' "$ASC_KEY_P8" > "$key_path"
+          export ASC_KEY_PATH="$key_path"
+          bundle_id=$(sed -n 's/^app_identifier("\(.*\)")$/\1/p' fastlane/Appfile)
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install --quiet pyjwt cryptography
+          "$RUNNER_TEMP/venv/bin/python" scripts/asc_price.py --bundle-id "$bundle_id" --krw "$PRICE_KRW"

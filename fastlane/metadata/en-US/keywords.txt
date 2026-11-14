@@ -1,0 +1,1 @@
+chess,janggi,korean chess,xiangqi,board game,strategy,variant,2 player,online,asymmetric
