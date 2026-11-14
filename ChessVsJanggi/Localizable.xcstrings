@@ -861,6 +861,16 @@
         }
       }
     },
+    "체스는 정규 편성에 폰이 9개입니다. 장기는 대군입니다 — 졸 9개, 차 5대(포 줄에 3대 추가).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess fields its full army with nine pawns. Janggi fields a horde — nine soldiers and five chariots (three extra on the cannon row)."
+          }
+        }
+      }
+    },
     "체스로 두기": {
       "localizations": {
         "en": {

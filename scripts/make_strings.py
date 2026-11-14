@@ -115,6 +115,8 @@ EN = {
     "상대의 킹(궁)을 피할 수 없게 공격하면 승리합니다 — 체크메이트, 곧 외통수.":
         "Win by attacking the enemy king (or general) so it cannot escape — checkmate.",
     "자기 킹(궁)이 잡히는 수는 둘 수 없습니다.": "You may not make a move that leaves your own king (or general) in check.",
+    "체스는 정규 편성에 폰이 9개입니다. 장기는 대군입니다 — 졸 9개, 차 5대(포 줄에 3대 추가).":
+        "Chess fields its full army with nine pawns. Janggi fields a horde — nine soldiers and five chariots (three extra on the cannon row).",
     "빅장과 한수쉼은 없습니다. 앙파상도 없습니다.":
         "There is no facing-generals rule and no passing. There is no en passant either.",
     "둘 수가 없을 때, 같은 국면이 세 번 반복될 때, 잡는 수도 폰의 전진도 없이 50수가 지나면 무승부입니다.":

@@ -6,7 +6,7 @@ import Foundation
 /// - 장기판(9×10 교차점)에서 둔다. 궁성은 장기 진영 쪽에만 있다
 /// - 체스 기물은 체스 규칙대로, 장기 기물은 장기 규칙대로 움직인다
 /// - 폰: 첫 수 두 칸 가능, 대각선 앞으로 잡기, 끝줄에서 승급. 앙파상 없음
-/// - 캐슬링 가능 (킹은 가운데 줄에서 두 칸, 룩은 양 귀퉁이)
+/// - 캐슬링 가능 (킹은 가운데 e줄에서 두 칸, 룩은 a줄과 h줄)
 /// - 포는 체스 기물도 다리로 쓸 수 있다. 포끼리는 넘지 못한다
 /// - 자기 킹/궁을 체크(장군) 상태로 두는 수는 둘 수 없다. 빅장·한수쉼 없음
 enum Rules {
@@ -308,7 +308,7 @@ enum Rules {
         }
         if board.canCastleKingside,
            board[SquareUtil.kingsideRookHome]?.kind == .rook,
-           isEmpty(5...7),
+           isEmpty(5...6),
            !isAttacked(SquareUtil.make(file: 5, rank: 0), by: .janggi, on: board) {
             moves.append(Move(from: sq, to: SquareUtil.make(file: 6, rank: 0)))
         }

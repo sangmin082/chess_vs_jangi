@@ -46,7 +46,7 @@ final class SelfPlayTests: XCTestCase {
     }
 
     /// 실험용 변형 배치. 줄마다 9글자, 대문자 = 체스(RNBQKP), 소문자 = 장기(r차 h마 e상 a사 g궁 c포 s졸), 그 외 = 빈칸.
-    ///   SELFPLAY_SETUP="RNBQKBN.R/PPPPPPPPP/s.s.s.s.s/.c.....c./....g..../rhea.aehr" (rank 0,1,6,7,8,9 순)
+    ///   SELFPLAY_SETUP="RNBQKBNR./PPPPPPPPP/sssssssss/rc..r..cr/....g..../rhea.aehr" (rank 0,1,6,7,8,9 순)
     ///   SELFPLAY_FIRST=chess|janggi
     static func makeGame(env: [String: String]) -> Game {
         let first = Side(rawValue: env["SELFPLAY_FIRST"] ?? "") ?? Game.firstSide
