@@ -1,0 +1,22 @@
+{
+  "sourceLanguage": "ko",
+  "strings": {
+    "CFBundleDisplayName": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess vs Janggi"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "체스 vs 장기"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

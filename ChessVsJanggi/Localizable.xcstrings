@@ -1,0 +1,1076 @@
+{
+  "sourceLanguage": "ko",
+  "strings": {
+    "가로·세로·대각선으로 원하는 만큼.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Any distance along a line or a diagonal."
+          }
+        }
+      }
+    },
+    "가로·세로로 원하는 만큼.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Any distance along a line."
+          }
+        }
+      }
+    },
+    "가로·세로로 원하는 만큼. 궁성 안에서는 대각선도.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Any distance along a line. Inside the palace, along the diagonals too."
+          }
+        }
+      }
+    },
+    "갈 수 있음": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can move here"
+          }
+        }
+      }
+    },
+    "같은 국면이 세 번 반복되어 무승부입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The same position occurred three times — draw."
+          }
+        }
+      }
+    },
+    "궁": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        }
+      }
+    },
+    "궁과 같습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Same as the general."
+          }
+        }
+      }
+    },
+    "궁성 안에서 선을 따라 한 칸. 궁성 밖으로 나갈 수 없습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One step along a line inside the palace. It can never leave the palace."
+          }
+        }
+      }
+    },
+    "규칙 한 장": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rules on One Page"
+          }
+        }
+      }
+    },
+    "규칙 한 장 보기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rules on one page"
+          }
+        }
+      }
+    },
+    "나 · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You · %@"
+          }
+        }
+      }
+    },
+    "나이트": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Knight"
+          }
+        }
+      }
+    },
+    "날 일(日)자로 뜁니다. 막히지 않습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jumps in an L shape. It cannot be blocked."
+          }
+        }
+      }
+    },
+    "내 진영": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My side"
+          }
+        }
+      }
+    },
+    "내 진영: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My side: %@"
+          }
+        }
+      }
+    },
+    "내 진영: 무작위 — 시작할 때 정해집니다": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My side: random — decided when the game starts"
+          }
+        }
+      }
+    },
+    "대각선으로 원하는 만큼.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Any distance along a diagonal."
+          }
+        }
+      }
+    },
+    "대국을 시작합니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starting the game."
+          }
+        }
+      }
+    },
+    "대국이 시작되지 않았습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The game hasn't started."
+          }
+        }
+      }
+    },
+    "둘 수 있는 수가 없어 무승부입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No legal moves — the game is a draw."
+          }
+        }
+      }
+    },
+    "둘 수가 없을 때, 같은 국면이 세 번 반복될 때, 잡는 수도 폰의 전진도 없이 50수가 지나면 무승부입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The game is a draw when there is no legal move, when a position repeats three times, or after fifty moves without a capture or pawn move."
+          }
+        }
+      }
+    },
+    "룩": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rook"
+          }
+        }
+      }
+    },
+    "마": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horse"
+          }
+        }
+      }
+    },
+    "마지막 수 무르기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo last move"
+          }
+        }
+      }
+    },
+    "매칭 완료": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matched"
+          }
+        }
+      }
+    },
+    "무르기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
+          }
+        }
+      }
+    },
+    "무승부": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw"
+          }
+        }
+      }
+    },
+    "무작위": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Random"
+          }
+        }
+      }
+    },
+    "반드시 기물 하나를 넘어서 움직이고 잡습니다. 체스 기물도 넘을 수 있지만, 포는 넘지 못합니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Must jump over exactly one piece to move or capture. It can jump chess pieces, but never another cannon."
+          }
+        }
+      }
+    },
+    "방 만들기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Room"
+          }
+        }
+      }
+    },
+    "방을 만들어 친구와 대결": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create a room and play a friend"
+          }
+        }
+      }
+    },
+    "방을 만들어 코드를 공유하거나, 받은 코드로 입장하세요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create a room and share its code, or join with a code you received."
+          }
+        }
+      }
+    },
+    "방이 가득 찼습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The room is full."
+          }
+        }
+      }
+    },
+    "방이 열렸습니다": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Room Open"
+          }
+        }
+      }
+    },
+    "방코드로 입장": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Join with a code"
+          }
+        }
+      }
+    },
+    "보통": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        }
+      }
+    },
+    "비숍": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bishop"
+          }
+        }
+      }
+    },
+    "빅장과 한수쉼은 없습니다. 앙파상도 없습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There is no facing-generals rule and no passing. There is no en passant either."
+          }
+        }
+      }
+    },
+    "사": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advisor"
+          }
+        }
+      }
+    },
+    "상": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elephant"
+          }
+        }
+      }
+    },
+    "상대 · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opponent · %@"
+          }
+        }
+      }
+    },
+    "상대가 나가서 방이 닫혔습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your opponent left and the room was closed."
+          }
+        }
+      }
+    },
+    "상대가 나갔습니다": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opponent Left"
+          }
+        }
+      }
+    },
+    "상대를 기다리는 중…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for opponent…"
+          }
+        }
+      }
+    },
+    "상대의 킹(궁)을 피할 수 없게 공격하면 승리합니다 — 체크메이트, 곧 외통수.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Win by attacking the enemy king (or general) so it cannot escape — checkmate."
+          }
+        }
+      }
+    },
+    "생각 중…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thinking…"
+          }
+        }
+      }
+    },
+    "서로 다른 두 군대, 하나의 판": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Two different armies, one board"
+          }
+        }
+      }
+    },
+    "서버가 잠들어 있으면 깨우는 데 최대 1분 정도 걸릴 수 있어요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If the server is asleep, waking it can take up to a minute."
+          }
+        }
+      }
+    },
+    "서버에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't reach the server. Please try again shortly."
+          }
+        }
+      }
+    },
+    "서버와 연결이 끊어졌습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lost connection to the server."
+          }
+        }
+      }
+    },
+    "선택됨": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
+          }
+        }
+      }
+    },
+    "쉬움": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Easy"
+          }
+        }
+      }
+    },
+    "승급": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promotion"
+          }
+        }
+      }
+    },
+    "승리": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Victory"
+          }
+        }
+      }
+    },
+    "알 수 없는 오류": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown error"
+          }
+        }
+      }
+    },
+    "앞으로 한 칸(첫 수는 두 칸도), 잡을 때는 대각선 앞으로. 끝줄에 닿으면 승급합니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One step forward (two on its first move); captures diagonally forward. Promotes on the last rank."
+          }
+        }
+      }
+    },
+    "앞이나 옆으로 한 칸. 뒤로는 못 갑니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One step forward or sideways. It cannot move backward."
+          }
+        }
+      }
+    },
+    "어느 방향으로든 한 칸. 판 어디든 갈 수 있습니다. 캐슬링도 됩니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One step in any direction, anywhere on the board. It can castle."
+          }
+        }
+      }
+    },
+    "어려움": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hard"
+          }
+        }
+      }
+    },
+    "연결 중…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecting…"
+          }
+        }
+      }
+    },
+    "연결이 끊어져 대국을 계속할 수 없습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The connection was lost, so the game cannot continue."
+          }
+        }
+      }
+    },
+    "온라인 대전": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Online"
+          }
+        }
+      }
+    },
+    "외통수 — 장기가 체스의 킹을 잡았습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checkmate — Janggi has trapped the Chess king."
+          }
+        }
+      }
+    },
+    "이미 방에 있습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're already in a room."
+          }
+        }
+      }
+    },
+    "입장": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Join"
+          }
+        }
+      }
+    },
+    "입장하는 쪽은 방장이 고르지 않은 진영을 맡습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The player who joins takes the side the host did not pick."
+          }
+        }
+      }
+    },
+    "자기 킹(궁)이 잡히는 수는 둘 수 없습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You may not make a move that leaves your own king (or general) in check."
+          }
+        }
+      }
+    },
+    "잘못된 메시지 형식입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Malformed message."
+          }
+        }
+      }
+    },
+    "잡거나 폰을 밀지 않고 %lld수 — 50수가 되면 무승부": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld moves without a capture or pawn move — draw at 50"
+          }
+        }
+      }
+    },
+    "잡는 수도 폰의 전진도 없이 50수가 지나 무승부입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fifty moves passed without a capture or pawn move — draw."
+          }
+        }
+      }
+    },
+    "잡은 기물 %lld개": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld captured"
+          }
+        }
+      }
+    },
+    "장군 — 궁을 지켜야 합니다": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check — protect your general"
+          }
+        }
+      }
+    },
+    "장기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Janggi"
+          }
+        }
+      }
+    },
+    "장기 기물": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Janggi pieces"
+          }
+        }
+      }
+    },
+    "장기로 두기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play as Janggi"
+          }
+        }
+      }
+    },
+    "장기판 위에서 체스 군대와 장기 군대가 싸웁니다. 모든 기물은 선이 만나는 점에 놓입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A chess army fights a janggi (Korean chess) army on a janggi board. Every piece sits on a point where lines cross."
+          }
+        }
+      }
+    },
+    "존재하지 않는 방 코드입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That room code doesn't exist."
+          }
+        }
+      }
+    },
+    "졸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soldier"
+          }
+        }
+      }
+    },
+    "차": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chariot"
+          }
+        }
+      }
+    },
+    "체스": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess"
+          }
+        }
+      }
+    },
+    "체스 (선공)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess (moves first)"
+          }
+        }
+      }
+    },
+    "체스 vs 장기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess vs Janggi"
+          }
+        }
+      }
+    },
+    "체스 vs 장기에서 한 판 하자! 방코드: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play me in Chess vs Janggi! Room code: %@"
+          }
+        }
+      }
+    },
+    "체스 기물": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess pieces"
+          }
+        }
+      }
+    },
+    "체스 기물은 체스 규칙대로, 장기 기물은 장기 규칙대로 움직입니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess pieces move by chess rules; janggi pieces move by janggi rules."
+          }
+        }
+      }
+    },
+    "체스가 먼저 둡니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chess moves first."
+          }
+        }
+      }
+    },
+    "체스로 두기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play as Chess"
+          }
+        }
+      }
+    },
+    "체크 — 킹을 지켜야 합니다": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check — protect your king"
+          }
+        }
+      }
+    },
+    "체크메이트 — 체스가 장기의 궁을 잡았습니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checkmate — Chess has trapped the Janggi general."
+          }
+        }
+      }
+    },
+    "취소": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "친구에게 이 코드를 보내주세요. 입장하는 즉시 대국이 시작됩니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send this code to a friend. The game starts as soon as they join."
+          }
+        }
+      }
+    },
+    "친구와 한 판": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play a Friend"
+          }
+        }
+      }
+    },
+    "컴퓨터 · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Computer · %@"
+          }
+        }
+      }
+    },
+    "컴퓨터 대전": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vs Computer"
+          }
+        }
+      }
+    },
+    "컴퓨터 대전 · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vs Computer · %@"
+          }
+        }
+      }
+    },
+    "코드 공유하기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Code"
+          }
+        }
+      }
+    },
+    "퀸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Queen"
+          }
+        }
+      }
+    },
+    "킹": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "King"
+          }
+        }
+      }
+    },
+    "패배": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Defeat"
+          }
+        }
+      }
+    },
+    "포": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cannon"
+          }
+        }
+      }
+    },
+    "폰": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pawn"
+          }
+        }
+      }
+    },
+    "폰이 끝줄에 닿았습니다. 바꿀 기물을 고르세요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your pawn reached the last rank. Choose a piece."
+          }
+        }
+      }
+    },
+    "한 칸 직진 후 두 칸 대각선. 지나는 칸이 막히면 못 갑니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One step straight, then two diagonal. Blocked if any point on the way is occupied."
+          }
+        }
+      }
+    },
+    "한 칸 직진 후 한 칸 대각선. 첫 칸이 막히면 못 갑니다.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One step straight, then one diagonal. Blocked if the first point is occupied."
+          }
+        }
+      }
+    },
+    "한 판 더": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play Again"
+          }
+        }
+      }
+    },
+    "혼자서 한 판": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play solo"
+          }
+        }
+      }
+    },
+    "홈으로": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
