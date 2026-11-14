@@ -31,8 +31,8 @@
 `server/`는 방코드 매칭과 무브 릴레이만 하는 작은 Node 서버입니다.
 
 1. render.com → **New → Blueprint** → 이 저장소 연결 (`render.yaml`을 읽어 `chess-vs-janggi-server`를 만듭니다).
-2. 배포되면 주소는 `wss://chess-vs-janggi-server.onrender.com` — 앱의 `ChessVsJanggi/Online/OnlineConfig.swift`에 적힌 주소와 같아야 합니다.
+2. 배포되면 주소는 `wss://chess-vs-janggi-server-lu68.onrender.com` — 앱의 `ChessVsJanggi/Online/OnlineConfig.swift`에 적힌 주소와 같아야 합니다.
    서비스 이름을 바꾸면 그 파일도 함께 고칩니다.
-3. `https://chess-vs-janggi-server.onrender.com/privacy`는 개인정보처리방침, 그 밖의 주소는 지원 페이지로 쓸 수 있습니다.
+3. `https://chess-vs-janggi-server-lu68.onrender.com/privacy`는 개인정보처리방침, 그 밖의 주소는 지원 페이지로 쓸 수 있습니다.
 
 무료 플랜은 한동안 접속이 없으면 잠들어서, 첫 연결에 최대 1분쯤 걸립니다.
