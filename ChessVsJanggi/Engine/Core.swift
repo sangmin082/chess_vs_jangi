@@ -120,7 +120,7 @@ enum SquareUtil {
     // 체스 진영의 고정 칸
     static let kingHome = make(file: 4, rank: 0)
     static let queensideRookHome = make(file: 0, rank: 0)
-    static let kingsideRookHome = make(file: 7, rank: 0)
+    static let kingsideRookHome = make(file: 8, rank: 0)
     static let pawnHomeRank = 1
     static let promotionRank = ranks - 1
 }
@@ -159,13 +159,13 @@ struct Board: Hashable {
     }
 
     /// 초기 배치.
-    /// - 체스(아래): 뒷줄 왼쪽부터 룩·나이트·비숍·퀸·킹·비숍·나이트·룩(오른쪽 끝 칸은 비움), 그 앞줄에 폰 9개.
-    ///   킹이 가운데 줄에 서서 장기의 궁과 마주 본다.
+    /// - 체스(아래): 뒷줄 왼쪽부터 룩·나이트·비숍·퀸·킹·비숍·나이트·(빈 점)·룩, 그 앞줄에 폰 9개.
+    ///   킹이 가운데 줄에 서서 장기의 궁과 마주 보고, 룩은 양 귀퉁이에 선다.
     /// - 장기(위): 표준 배치(마상상마)에 지원군을 더한 대군 — 졸 9개, 포 줄에 차 3대 추가(차 모두 5대).
     ///   표준 장기 그대로는 체스가 일방적으로 이겨서 자가대국으로 맞춘 편성이다 (RULES.md 참고).
     static func initial() -> Board {
         var board = Board.empty()
-        let chessBack: [PieceKind?] = [.rook, .knight, .bishop, .queen, .king, .bishop, .knight, .rook, nil]
+        let chessBack: [PieceKind?] = [.rook, .knight, .bishop, .queen, .king, .bishop, .knight, nil, .rook]
         for (file, kind) in chessBack.enumerated() {
             if let kind { board[SquareUtil.make(file: file, rank: 0)] = Piece(kind) }
         }

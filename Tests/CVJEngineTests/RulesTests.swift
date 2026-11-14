@@ -17,8 +17,8 @@ final class RulesTests: XCTestCase {
         XCTAssertEqual(board.pieces(of: .janggi).count, 23) // 표준 16 + 졸 4 + 차 3
         XCTAssertEqual(board.royalSquare(of: .chess), sq(4, 0))
         XCTAssertEqual(board.royalSquare(of: .janggi), sq(4, 8))
-        XCTAssertEqual(board[sq(7, 0)]?.kind, .rook)
-        XCTAssertNil(board[sq(8, 0)])
+        XCTAssertNil(board[sq(7, 0)])
+        XCTAssertEqual(board[sq(8, 0)]?.kind, .rook)
         XCTAssertEqual(board.pieces(of: .janggi).filter { $0.1.kind == .chariot }.count, 5)
         XCTAssertEqual(board.pieces(of: .janggi).filter { $0.1.kind == .soldier }.count, 9)
         XCTAssertFalse(Rules.isInCheck(.chess, on: board))
@@ -27,7 +27,7 @@ final class RulesTests: XCTestCase {
 
     func testInitialMoveCounts() {
         let board = Board.initial()
-        // 폰 9개 × 2 + 나이트 둘 × 2 + 룩 h: 1(빈 i1 칸)
+        // 폰 9개 × 2 + 나이트 둘 × 2 + 룩 i: 1(빈 h1 점)
         XCTAssertEqual(Rules.legalMoves(for: .chess, on: board).count, 18 + 4 + 1)
         XCTAssertFalse(Rules.legalMoves(for: .janggi, on: board).isEmpty)
         XCTAssertNil(Game().result)
@@ -62,7 +62,7 @@ final class RulesTests: XCTestCase {
     // MARK: - 캐슬링
 
     func testCastling() {
-        let placements: [(Int, Int, PieceKind)] = [(4, 0, .king), (0, 0, .rook), (7, 0, .rook), (4, 8, .general)]
+        let placements: [(Int, Int, PieceKind)] = [(4, 0, .king), (0, 0, .rook), (8, 0, .rook), (4, 8, .general)]
         let board = Board.custom(placements, castling: true)
         let kingTargets = targets(board, .chess, from: sq(4, 0))
         XCTAssertTrue(kingTargets.contains(sq(6, 0)))
@@ -71,7 +71,7 @@ final class RulesTests: XCTestCase {
         let kingside = board.applying(Move(from: sq(4, 0), to: sq(6, 0)))
         XCTAssertEqual(kingside[sq(6, 0)]?.kind, .king)
         XCTAssertEqual(kingside[sq(5, 0)]?.kind, .rook)
-        XCTAssertNil(kingside[sq(7, 0)])
+        XCTAssertNil(kingside[sq(8, 0)])
         XCTAssertFalse(kingside.canCastleQueenside)
 
         let queenside = board.applying(Move(from: sq(4, 0), to: sq(2, 0)))
@@ -83,29 +83,29 @@ final class RulesTests: XCTestCase {
     func testCastlingBlockedByAttackAndMovedPieces() {
         // 차가 f열(5)을 겨누면 킹사이드 불가, 퀸사이드는 가능
         var board = Board.custom(
-            [(4, 0, .king), (0, 0, .rook), (7, 0, .rook), (4, 8, .general), (5, 5, .chariot)], castling: true)
+            [(4, 0, .king), (0, 0, .rook), (8, 0, .rook), (4, 8, .general), (5, 5, .chariot)], castling: true)
         var kingTargets = targets(board, .chess, from: sq(4, 0))
         XCTAssertFalse(kingTargets.contains(sq(6, 0)))
         XCTAssertTrue(kingTargets.contains(sq(2, 0)))
 
         // 체크 중에는 캐슬링 불가
         board = Board.custom(
-            [(4, 0, .king), (0, 0, .rook), (7, 0, .rook), (3, 8, .general), (4, 5, .chariot)], castling: true)
+            [(4, 0, .king), (0, 0, .rook), (8, 0, .rook), (3, 8, .general), (4, 5, .chariot)], castling: true)
         kingTargets = targets(board, .chess, from: sq(4, 0))
         XCTAssertFalse(kingTargets.contains(sq(6, 0)))
         XCTAssertFalse(kingTargets.contains(sq(2, 0)))
 
         // 룩이 움직였다 돌아오면 그쪽 권리가 없다
-        board = Board.custom([(4, 0, .king), (0, 0, .rook), (7, 0, .rook), (4, 8, .general)], castling: true)
-        board.apply(Move(from: sq(7, 0), to: sq(7, 1)))
-        board.apply(Move(from: sq(7, 1), to: sq(7, 0)))
+        board = Board.custom([(4, 0, .king), (0, 0, .rook), (8, 0, .rook), (4, 8, .general)], castling: true)
+        board.apply(Move(from: sq(8, 0), to: sq(8, 1)))
+        board.apply(Move(from: sq(8, 1), to: sq(8, 0)))
         kingTargets = targets(board, .chess, from: sq(4, 0))
         XCTAssertFalse(kingTargets.contains(sq(6, 0)))
         XCTAssertTrue(kingTargets.contains(sq(2, 0)))
 
         // 사이에 기물이 있으면 불가
         board = Board.custom(
-            [(4, 0, .king), (0, 0, .rook), (7, 0, .rook), (1, 0, .knight), (4, 8, .general)], castling: true)
+            [(4, 0, .king), (0, 0, .rook), (8, 0, .rook), (1, 0, .knight), (4, 8, .general)], castling: true)
         XCTAssertFalse(targets(board, .chess, from: sq(4, 0)).contains(sq(2, 0)))
     }
 
