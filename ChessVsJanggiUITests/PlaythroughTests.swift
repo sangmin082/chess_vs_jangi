@@ -125,6 +125,7 @@ final class PlaythroughTests: XCTestCase {
         tapButton("온라인 대전")
         XCTAssertTrue(app.staticTexts["친구와 한 판"].waitForExistence(timeout: 5))
         tapButton("체스 (선공)")
+        sleep(1) // 선택 표시가 바뀌는 애니메이션이 끝난 뒤에 찍는다
         shot("09 온라인 로비")
     }
 
