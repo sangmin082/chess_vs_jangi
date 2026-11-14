@@ -7,3 +7,5 @@ xcuserdata/
 .DS_Store
 .build/
 .swiftpm/
+__pycache__/
+node_modules/
